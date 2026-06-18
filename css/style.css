@@ -113,6 +113,22 @@ font-family: "Oswald", sans-serif;
     bottom: -5px;
     left: 200px;
 }
+.aboutimgsec{
+    display: flex;
+}
+.aboutimgsec h3{
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: 600; 
+}
+.aboutimgsec ul li{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.aboutimgsec ul li i{
+    color: #FF4655;
+}
 /* aboutpart css end  */
 /* common css start  */
 /* common css end  */
