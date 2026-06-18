@@ -16,6 +16,7 @@ ul,
 ol {
     list-style-type: none;
 }
+
 h1,
 h2,
 h3,
@@ -26,37 +27,44 @@ h6 {
     padding: 0;
     line-height: 0.8;
 }
+
 /* Common css end  */
 
 /* header css start  */
-.navbar{
-position: fixed;
-width: 100%;
-font-family: "Oswald", sans-serif;
+.navbar {
+    position: fixed;
+    width: 100%;
+    font-family: "Oswald", sans-serif;
 }
-.navsocial{
+
+.navsocial {
     display: flex;
     align-items: center;
     column-gap: 15px;
 }
-.navsocial i{
+
+.navsocial i {
     color: #FFFFFF;
 }
-.navsocial h3{
+
+.navsocial h3 {
     color: #FFFFFF;
     font-size: 16px;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     color: #FFFFFF;
     transition: .5s;
 }
-.navbar ul li a:hover{
+
+.navbar ul li a:hover {
     color: #FF4655;
 }
+
 /* header css end  */
 
 /* Banner CSS Start  */
-#bannerpart{
+#bannerpart {
     background: url(../images/bannermain.png);
     padding-top: 300px;
     padding-bottom: 100px;
@@ -65,46 +73,55 @@ font-family: "Oswald", sans-serif;
     background-size: cover;
     font-family: "Oswald", sans-serif;
 }
-.textpart{
+
+.textpart {
     color: #FFFFFF;
 }
-.textpart h3{
+
+.textpart h3 {
     padding-top: 200px;
 }
-.textpart h1{
+
+.textpart h1 {
     padding-bottom: 140px;
     padding-top: 30px;
     font-weight: 600;
     font-size: 60px;
 }
-.Viewbtn{
+
+.Viewbtn {
     padding: 15px 30px;
     background: #FFFFFF;
     color: black;
     font-size: 16px;
 }
-.socialicons{
+
+.socialicons {
     padding-top: 300px;
     font-size: 30px;
 }
-.socialicons a{
+
+.socialicons a {
     color: #FFFFFF;
 }
+
 /* Banner CSS End  */
 
 /* aboutpart css start  */
-#aboutpart{
+#aboutpart {
     padding: 100px 0;
     background: black;
 }
-.abouttext{
+
+.abouttext {
     color: #FFFFFF;
     font-size: 38px;
     font-weight: 600;
     text-transform: uppercase;
     position: relative;
 }
-.abouttext h2::before{
+
+.abouttext h2::before {
     position: absolute;
     height: 4px;
     width: 120px;
@@ -113,22 +130,78 @@ font-family: "Oswald", sans-serif;
     bottom: -5px;
     left: 200px;
 }
-.aboutimgsec{
+
+.aboutimgsec {
+    padding-top: 70px;
     display: flex;
+    padding-bottom: 50px;
 }
-.aboutimgsec h3{
+
+.aboutimgsec h3 {
     color: #FFFFFF;
     font-size: 27px;
-    font-weight: 600; 
+    font-weight: 600;
+    padding-bottom: 27px;
 }
-.aboutimgsec ul li{
+
+.aboutimgsec ul li {
     color: #FFFFFF;
     font-size: 18px;
     font-family: "Barlow Condensed", sans-serif;
+
 }
-.aboutimgsec ul li i{
+
+.aboutimgsec ul li i {
     color: #FF4655;
 }
+
+.aboutimgsec p {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.aboutViewbtn {
+    padding: 15px 30px;
+    background: #212121;
+    color: #FFFF;
+    font-size: 16px;
+}
+
+.aboutboxpart {
+    display: flex;
+    text-align: center;
+}
+.box {
+    background: #212121;
+    height: 170px;
+    width: 315px;
+    border-top-right-radius: 65px;
+    border-bottom-left-radius: 65px;
+    
+}
+.aboutboxpart h2 {
+    color: #FFFFFF;
+    font-style: 70px;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.aboutboxpart i {
+    font-size: 10px;
+    color: #FF4655;
+}
+
+.aboutboxpart p {
+    color: rgba(255, 255, 255, 0.7);
+    font-style: 18px;
+    font-family: "Oswald", sans-serif;
+}
+
+
+
 /* aboutpart css end  */
 /* common css start  */
 /* common css end  */
