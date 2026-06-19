@@ -199,11 +199,81 @@ h6 {
     font-style: 18px;
     font-family: "Oswald", sans-serif;
 }
-
-
-
 /* aboutpart css end  */
+
+/* popular css start  */
+#popularpart{
+    padding: 100px 0;
+    background: #191919; 
+   
+}
+.populartext{
+   color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    text-align: right;
+}
+.populartext h3::before {
+    position: absolute;
+    height: 4px;
+    width: 105px;
+    background: #FF4655;
+    content: "";
+    bottom: -5px;
+    right: 110px;
+}
+.gameimg{
+    padding-top: 40px;
+}
+.slidbtn{
+text-align: right;
+font-size: 30px;
+}
+.slidbtn a{
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+    transition: all linear .4s;
+}
+.slidbtn a:hover{
+    background: transparent;
+    color: #FF4655;
+}
+/* popular css end  */
 /* common css start  */
-/* common css end  */
-/* common css start  */
+#streampart{
+    padding: 100px 0;
+    background: #121212;
+}
+.livetxt{
+     color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+}
+.livetxt h3::before {
+    position: absolute;
+    height: 4px;
+    width: 120px;
+    background: #FF4655;
+    content: "";
+    bottom: -5px;
+    left: 130px;
+}
+.slides{
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+.matches{
+    text-align: center;
+}
+.matches h3{
+    color: #FFFFFF;
+    font-style: 25px;
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+}
 /* common css end  */
