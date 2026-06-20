@@ -242,7 +242,7 @@ font-size: 30px;
     color: #FF4655;
 }
 /* popular css end  */
-/* common css start  */
+/* stream css start  */
 #streampart{
     padding: 100px 0;
     background: #121212;
@@ -263,17 +263,99 @@ font-size: 30px;
     bottom: -5px;
     left: 130px;
 }
-.slides{
+.slides a{
     padding-top: 75px;
     padding-bottom: 60px;
 }
 .matches{
     text-align: center;
 }
-.matches h3{
+
+.slides h3{
     color: #FFFFFF;
     font-style: 25px;
     font-weight: 500;
     font-family: "Barlow Condensed", sans-serif;
+    text-align: center;
 }
-/* common css end  */
+.matches{
+    justify-content: center;
+    padding-top: 20px;
+}
+.matchestwo{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+/* stream css end  */
+/* topgames css start  */
+#topgames{
+    padding: 100px 0;
+    background: #191919;
+}
+.gameheading{
+   color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    text-align: right;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.gameheading h3::before {
+    position: absolute;
+    height: 4px;
+    width: 105px;
+    background: #FF4655;
+    content: "";
+    bottom: -5px;
+    right: 70px;
+}
+.salepart{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.catalogtxt h3{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-bottom: 30px;
+   
+}
+.catalogpart{
+    background: #212121;
+    padding: 30px 50px;
+    display: flex;
+    column-gap: 100px; 
+    font-family: "Oswald", sans-serif;
+}
+.catalog h3{
+    color: #FF4655;
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+.catalog h2{
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 600;
+     font-family: "Barlow Condensed", sans-serif;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     width: 500px;
+
+}
+.catalog p{
+    color: #666666;
+    font-style: 18px;
+    font-weight: 600; 
+    padding-bottom: 30px;
+    
+}
+.Browsebtn{
+    padding: 10px 30px;
+    background: #121212;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+   
+}
