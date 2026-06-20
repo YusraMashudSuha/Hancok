@@ -172,14 +172,16 @@ h6 {
     display: flex;
     text-align: center;
 }
+
 .box {
     background: #212121;
     height: 170px;
     width: 315px;
     border-top-right-radius: 65px;
     border-bottom-left-radius: 65px;
-    
+
 }
+
 .aboutboxpart h2 {
     color: #FFFFFF;
     font-style: 70px;
@@ -199,22 +201,25 @@ h6 {
     font-style: 18px;
     font-family: "Oswald", sans-serif;
 }
+
 /* aboutpart css end  */
 
 /* popular css start  */
-#popularpart{
+#popularpart {
     padding: 100px 0;
-    background: #191919; 
-   
+    background: #191919;
+
 }
-.populartext{
-   color: #FFFFFF;
+
+.populartext {
+    color: #FFFFFF;
     font-size: 38px;
     font-weight: 600;
     text-transform: uppercase;
     position: relative;
     text-align: right;
 }
+
 .populartext h3::before {
     position: absolute;
     height: 4px;
@@ -224,36 +229,43 @@ h6 {
     bottom: -5px;
     right: 110px;
 }
-.gameimg{
+
+.gameimg {
     padding-top: 40px;
 }
-.slidbtn{
-text-align: right;
-font-size: 30px;
+
+.slidbtn {
+    text-align: right;
+    font-size: 30px;
 }
-.slidbtn a{
+
+.slidbtn a {
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     border-radius: 100px;
     transition: all linear .4s;
 }
-.slidbtn a:hover{
+
+.slidbtn a:hover {
     background: transparent;
     color: #FF4655;
 }
+
 /* popular css end  */
 /* stream css start  */
-#streampart{
+#streampart {
     padding: 100px 0;
     background: #121212;
 }
-.livetxt{
-     color: #FFFFFF;
+
+.livetxt {
+    color: #FFFFFF;
     font-size: 38px;
     font-weight: 600;
     text-transform: uppercase;
     position: relative;
 }
+
 .livetxt h3::before {
     position: absolute;
     height: 4px;
@@ -263,37 +275,43 @@ font-size: 30px;
     bottom: -5px;
     left: 130px;
 }
-.slides a{
+
+.slides a {
     padding-top: 75px;
     padding-bottom: 60px;
 }
-.matches{
+
+.matches {
     text-align: center;
 }
 
-.slides h3{
+.slides h3 {
     color: #FFFFFF;
     font-style: 25px;
     font-weight: 500;
     font-family: "Barlow Condensed", sans-serif;
     text-align: center;
 }
-.matches{
+
+.matches {
     justify-content: center;
     padding-top: 20px;
 }
-.matchestwo{
+
+.matchestwo {
     padding-top: 40px;
     padding-bottom: 50px;
 }
+
 /* stream css end  */
 /* topgames css start  */
-#topgames{
+#topgames {
     padding: 100px 0;
     background: #191919;
 }
-.gameheading{
-   color: #FFFFFF;
+
+.gameheading {
+    color: #FFFFFF;
     font-size: 38px;
     font-weight: 600;
     text-transform: uppercase;
@@ -301,6 +319,7 @@ font-size: 30px;
     text-align: right;
     font-family: "Barlow Condensed", sans-serif;
 }
+
 .gameheading h3::before {
     position: absolute;
     height: 4px;
@@ -310,52 +329,58 @@ font-size: 30px;
     bottom: -5px;
     right: 70px;
 }
-.salepart{
-   padding-top: 50px;
-   padding-bottom: 50px;
+
+.salepart {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.catalogtxt h3{
+
+.catalogtxt h3 {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
     font-family: "Barlow Condensed", sans-serif;
     padding-bottom: 30px;
-   
+
 }
-.catalogpart{
+
+.catalogpart {
     background: #212121;
     padding: 30px 50px;
     display: flex;
-    column-gap: 100px; 
+    column-gap: 100px;
     font-family: "Oswald", sans-serif;
 }
-.catalog h3{
+
+.catalog h3 {
     color: #FF4655;
     font-size: 16px;
     font-weight: 500;
-   
+
 }
-.catalog h2{
+
+.catalog h2 {
     color: #FFFFFF;
     font-size: 38px;
     font-weight: 600;
-     font-family: "Barlow Condensed", sans-serif;
-     padding-top: 20px;
-     padding-bottom: 20px;
-     width: 500px;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 500px;
 
 }
-.catalog p{
+
+.catalog p {
     color: #666666;
     font-style: 18px;
-    font-weight: 600; 
+    font-weight: 600;
     padding-bottom: 30px;
-    
+
 }
-.Browsebtn{
+
+.Browsebtn {
     padding: 10px 30px;
     background: #121212;
     color: #FFFFFF;
     font-family: "Oswald", sans-serif;
-   
 }
