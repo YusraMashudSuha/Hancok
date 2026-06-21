@@ -15,6 +15,7 @@ a:hover {
 ul,
 ol {
     list-style-type: none;
+    padding-left: 0 !important;
 }
 
 h1,
@@ -208,16 +209,18 @@ h6 {
 #popularpart {
     padding: 100px 0;
     background: #191919;
-
+    position: relative;
 }
 
-.populartext {
+.populartext h3 {
     color: #FFFFFF;
     font-size: 38px;
     font-weight: 600;
     text-transform: uppercase;
     position: relative;
     text-align: right;
+    padding-bottom: 100px;
+    font-family: "Barlow Condensed", sans-serif;
 }
 
 .populartext h3::before {
@@ -226,17 +229,13 @@ h6 {
     width: 105px;
     background: #FF4655;
     content: "";
-    bottom: -5px;
+    top: 59px;
     right: 110px;
 }
 
-.gameimg {
-    padding-top: 40px;
-}
-
 .slidbtn {
-    text-align: right;
-    font-size: 30px;
+    position: absolute;
+    right: 722px;
 }
 
 .slidbtn a {
@@ -244,6 +243,9 @@ h6 {
     border: 2px solid #FFFFFF;
     border-radius: 100px;
     transition: all linear .4s;
+    display: block;
+    font-size: 30px;
+
 }
 
 .slidbtn a:hover {
@@ -294,25 +296,28 @@ h6 {
     padding-top: 180px;
 }
 
-.teamtop{
-   padding-top: 30px;
-   padding-bottom: 40px;
-   
+.teamtop {
+    padding-top: 30px;
+    padding-bottom: 40px;
+
 }
-.teamtop h3{
+
+.teamtop h3 {
     color: #FFFFFF;
     font-size: 40px;
     font-weight: 500;
     font-family: "Oswald", sans-serif;
     padding-top: 25px;
 }
-.teambottom h3{
+
+.teambottom h3 {
     color: #FFFFFF;
     font-size: 40px;
     font-weight: 500;
     font-family: "Oswald", sans-serif;
- padding-top: 25px;
+    padding-top: 25px;
 }
+
 /* stream css end  */
 /* topgames css start  */
 #topgames {
