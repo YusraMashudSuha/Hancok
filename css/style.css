@@ -291,18 +291,28 @@ h6 {
     font-weight: 500;
     font-family: "Barlow Condensed", sans-serif;
     text-align: center;
+    padding-top: 180px;
 }
 
-.matches {
-    justify-content: center;
-    padding-top: 20px;
+.teamtop{
+   padding-top: 30px;
+   padding-bottom: 40px;
+   
 }
-
-.matchestwo {
-    padding-top: 40px;
-    padding-bottom: 50px;
+.teamtop h3{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    padding-top: 25px;
 }
-
+.teambottom h3{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+ padding-top: 25px;
+}
 /* stream css end  */
 /* topgames css start  */
 #topgames {
